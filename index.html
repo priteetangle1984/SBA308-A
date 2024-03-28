@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMOJI</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+</head>
+<body>
+    <h1 style="color: whitesmoke; text-align: center;"><span>DAILY JOURNAL</span></h1>  
+
+            <section id="parent">
+                    <h1>LOG YOUR <span>MOOD</span> TODAY</h1>
+                    <label > <input style="margin-top:10pt" type="text" placeholder="Username"></label></br>
+                    <label>  <input type="password" placeholder="Password"></label></br>
+
+
+                <div id="container"> 
+                <div class="selected-emoji" id="selected-emoji"></div>
+                    <select style="position: relative;" id="emoji-selected" onchange="displaySelectedEmoji()">
+                        <option id="option" value="" disabled selected>How are you feeling today?</option>
+                    </select>
+                </div><br>
+
+                    <input type="date" id="start" name="trip-start" value="2024-03-23" min="2014-01-01" max="2024-12-31" /><br>
+                    <input style="padding: 400px; position: relative;" type='text' id='userParagraph' > <br>
+
+                    <button style="margin-top:15pt;margin-bottom:100pt" type="submit">Save</button></br>
+                    <label>  <input type="checkbox" Placeholder="Remember Me"> Remember Me </label>
+                        <a style="color:rgb(142, 226, 86)" = "#">Forgot Password</a>
+                    <p>Don't have an account
+                    <a style="color:rgb(142, 226, 86)"href="#">Register</a></p>
+
+            </section>
+
+</body>
+</html>
